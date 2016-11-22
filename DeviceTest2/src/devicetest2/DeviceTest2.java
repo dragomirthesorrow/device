@@ -12,6 +12,15 @@ package devicetest2;
 public class DeviceTest2 {
         static GpioListener mGp;
         public static boolean x;
+        
+        public static boolean Gpio01;
+        public static boolean DoorStatus;
+        public static boolean EnginePowerStatus;
+        public static boolean EngineStatus;
+        public static boolean OnSecureStatus;
+        public static boolean PCStatus;
+        
+        
     /**
      * @param args the command line arguments
      */
