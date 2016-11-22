@@ -12,16 +12,17 @@ package devicetest2;
 public class GpioListener  implements Runnable{
     
     public void run() {              
-        //GpioListener.sleep(50); 
+
         DeviceTest2.x = true;
-        //System.out.println ("Это поток прослушивателя.");
-        //System.out.println(Device_test.x);
+        //Проверяем поочередно все Gpio и выставляем статусные переменные
+        //параллельно меняя статус активируемых gpio
+        
+        //1 Поднимаем в нужный статус gpio
+        
+        //2 Устанавливаем глобальные переменные gpio
+        
+        //3 Устанавливаем переменные статусов сервисов
         }
-    
-    /*public void TestListPotok (){
-        //sleep("10");
-      System.out.println ("Это поток прослушивателя не функции ран.");
-      
-    }*/
+
     
 }
