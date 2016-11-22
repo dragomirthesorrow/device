@@ -13,7 +13,7 @@ public class GpioListener  implements Runnable{
     
     public void run() {              
         //GpioListener.sleep(50); 
-        Device_test.x = true;
+        DeviceTest2.x = true;
         //System.out.println ("Это поток прослушивателя.");
         //System.out.println(Device_test.x);
         }
